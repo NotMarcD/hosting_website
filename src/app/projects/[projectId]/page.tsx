@@ -7,7 +7,7 @@ export default function ProjectList( {params}: {
 ) 
 
 {
-    const currentProjects = ["gamba"];
+    const currentProjects = ["gamba", "1", "2"];
 
     if (!currentProjects.includes(params.projectId)) {
         return notFound()
