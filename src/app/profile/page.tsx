@@ -1,3 +1,12 @@
+import Link from "next/link"
+
 export default function Profile() {
-    return <h1>Profile page</h1>
+    return <div>
+            <h1>Profile page</h1>
+            <Link href="/">
+                <button>
+                    Go to Home Page
+                </button>
+            </Link>
+        </div>
 }

@@ -1,5 +1,5 @@
 export const metadata = {
-    title: "Next.js Project Hoempage",
+    title: "Next.js Project Homepage",
     description: "Project homepage for showcasing the projects of our collaboration"
 }
 
@@ -10,7 +10,25 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <body>
+                <header
+                    style = {{
+
+                    }}
+                >
+                    <p>Header type spill</p>
+                </header>
+            
+                {children}
+                    
+                <footer
+                    style = {{
+
+                    }}
+                >
+                    <p>Footer type spill</p>
+                </footer>
+            </body>
         </html>
     )
 }

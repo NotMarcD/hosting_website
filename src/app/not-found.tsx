@@ -6,7 +6,7 @@ export default function NotFound() {
         <h1>Not Found LOL!!!!</h1>
         <Link href="/">
             <button>
-                Go to Page
+                Go to Home Page
             </button>
         </Link>
     </div>
